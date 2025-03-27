@@ -1,0 +1,46 @@
+.arrow{
+    width: 256px;
+    height: 46px;
+    background-color: #0479A8;
+    position: relative;
+}
+.arrow:before {
+    content: 'Transfer Courses';
+    font-family: "Red Hat Text";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    color: #0479A8;
+    background-color: white;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    width: 252.598px;
+    height: 44px;
+    background: white;
+    /*display: block;*/
+    position: absolute;
+    top: 1px;
+    left: 2px;
+}
+.arrow {
+    -webkit-clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%, 5% 50%);
+    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%, 5% 50%);
+}
+
+.arrow:before {
+    -webkit-clip-path: polygon(0% 0%, 95.1531% 0%, 100% 50%, 95.1531% 100%, 0% 100%, 4.8468% 50%);
+    clip-path: polygon(0% 0%, 95.1531% 0%, 100% 50%, 95.1531% 100%, 0% 100%, 4.8468% 50%);
+}
+ 
+
+
+.myshape{
+  /*margin: 100px;*/
+  filter: drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.20)) 
+  drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.12)) 
+
+    
+}
